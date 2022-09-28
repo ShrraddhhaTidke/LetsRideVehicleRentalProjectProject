@@ -1,0 +1,106 @@
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+insert into booking values(default,1000,"2022-09-27","2022-09-25",5000,8,9);
+
+
+{
+    "firstName":"snehal",
+    "lastName":"patil",
+    "dlNo":"qwe789",
+    "email":"snehal@123",
+    "password":"Adi@123",
+    "phone":"98775637810",
+    "address":{
+    "house":"h55",
+    "street":"MG Road",
+    "area":"Kothrud",
+    "city":"Pune",
+    "state":"Maharashtra",
+    "pincode":"456001"
+    },
+    "dLExpiryDate":"2025-05-30",
+    "status":"GOld"
+
+}
+
+
+
+{
+    "brand": "Toyota",
+    "model": "Axio",
+    "mfgYear": "2015.0",
+    "transmission": "Automatic",
+    "categoryName": "Saloon",
+    "fuel": "Petrol",
+    "cappacity": "1,500 cc",
+    "status": "AVAILABLE",
+    "city": "Pune",
+    "imagePath": "vehicle_images/1633889155496_Toyota Axio edition 2015 for sale.jpg",
+    "vehicle_id": 9
+}
+
+
+
+{
+   "pickupDate":"2022-09-15",
+   "dropDate":"2022-09-20",
+   "userId":{
+    "firstName":"Aditya",
+    "lastName":"Tidke",
+    "dlNo":"qwe789",
+    "email":"Adi@gmail.com",
+    "password":"Adi@123",
+    "phone":"98775632410",
+    "address":{
+    "house":"G103",
+    "street":"RamRahim nager",
+    "area":"Evershine City",
+    "city":"Vasai",
+    "state":"Maharashtra",
+    "pincode":"456892"
+    },
+    "dLExpiryDate":"2025-05-30",
+    "status":"Gold"
+
+},
+   "vehicleId":
+{
+    "brand": "Toyota",
+    "model": "Axio",
+    "mfgYear": "2015.0",
+    "transmission": "Automatic",
+    "categoryName": "Saloon",
+    "fuel": "Petrol",
+    "cappacity": "1,500 cc",
+    "status": "AVAILABLE",
+    "city": "Pune",
+    "imagePath": "vehicle_images/1633889155496_Toyota Axio edition 2015 for sale.jpg",
+    "vehicle_id": 9
+},
+   "deposit":2000,
+   "totalpay":4000,
+   "rentalLocation":{
+       "house":"G103",
+    "street":"RamRahim nager",
+    "area":"Evershine City",
+    "city":"Vasai",
+    "state":"Maharashtra",
+    "pincode":"456892"
+   },
+   "returnLocation":{
+       "house":"G103",
+    "street":"RamRahim nager",
+    "area":"Evershine City",
+    "city":"Vasai",
+    "state":"Maharashtra",
+    "pincode":"456892"
+   }
+}
